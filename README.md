@@ -1,3 +1,4 @@
 # Project 0
 
-Web Programming with Python and JavaScript
+Recreation of Google homepage
+Video: https://www.youtube.com/watch?v=yCqx-0uUD1s&feature=youtu.be
