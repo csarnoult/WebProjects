@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Google Search</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <div class="rightAlign robotoFont">
+            <a href="GoogleImageSearch.html" class="navigation-link"> Images</a>
+            <a href="GoogleAdvancedSearch.html" class="navigation-link">Advanced</a>
+        </div>
+    
+        <div class="alignImage">
+            <img src="/Users/chrisarnoult/Documents/My_stuff/Programming/Harvard/CS50_Web_Programming/project0/Goog.png" alt="">
+        </div>
+        <div class="googleCenterSearch">
+            <form id="googleSearchFormField" action="https://google.com/search">
+                <input autofocus="autofocus" class="googleBoarderRadius submissionfield" type="text" name="q" placeholder="">
+            </form>
+            <input class="searchButton" form="googleSearchFormField" type="submit" value="Google Search">
+            <input class="searchButton" form="googleSearchFormField" type="submit" name="btnI" value="I'm Feeling Lucky">
+        </div>
+    </body>
+</html>
